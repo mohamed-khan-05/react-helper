@@ -12,7 +12,7 @@ const data = [
     description:
       "Creates the folder frontend and dependencies * Execute this within a folder with the description name",
     code: "npx create-vite frontend --template react && cd frontend && npm i && cd .. && code .",
-    img: "/src/assets/images/QuickStart/startup.png",
+    img: "../src/assets/images/QuickStart/startup.png",
   },
   {
     title: "FullStack npm",
