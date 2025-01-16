@@ -17,7 +17,7 @@ const data = [
   {
     title: "FullStack npm",
     category: "QuickStart",
-    description: "insert the type:module in package.json file",
+    description: "",
     code: "npm init -y && npm i bcryptjs body-parser concurrently cookie-parser dotenv express jsonwebtoken mongoose multer nodemon mysql2 sequelize sequelize-cli",
     img: "/react-helper/images/QuickStart/Fullstack npm.png",
   },
