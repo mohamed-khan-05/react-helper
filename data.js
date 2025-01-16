@@ -62,11 +62,25 @@ const data = [
     img: "/react-helper/images/QuickStart/scripts.png",
   },
   {
-    title: "Backend Folders",
+    title: "Backend Setup",
     category: "Backend setup",
-    description: "Create this file and folders",
+    description: "",
+    code: "",
+    img: "/react-helper/images/Backend setup/Backend folders.png",
+  },
+  {
+    title: "Backend index",
+    category: "Backend setup",
+    description: "",
+    code: 'const express = require("express");\nconst db = require("./models");\n\nconst app = express();\n\ndb.sequelize.sync().then(() => {\n  app.listen(3001, () => {\n    console.log("Server running on PORT 3001");\n  });\n});',
+    img: "/react-helper/images/Backend setup/Backend folders.png",
+  },
+  {
+    title: "Backend model",
+    category: "Backend setup",
+    description: "",
     code: null,
-    img: "/react-helper/images/Backend setup/backend folders.png",
+    img: "/react-helper/images/Backend setup/Backend folders.png",
   },
 ];
 
