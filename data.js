@@ -34,7 +34,7 @@ const data = [
     category: "QuickStart",
     description: "",
     code: "cd backend && npx sequelize-cli init",
-    img: null,
+    img: "/react-helper/images/blank.png",
   },
   {
     title: "Configure Tailwind",
